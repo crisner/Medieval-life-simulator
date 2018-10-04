@@ -79,6 +79,9 @@ class Miner extends Villager
         {
             image(ironImg, this.posX - 2, this.posY, 15, 15);
         }
+        fill(255);
+        textAlign(CENTER);
+        text(this.displayText, this.posX, this.posY - 20);
     }
 
     animate() {
